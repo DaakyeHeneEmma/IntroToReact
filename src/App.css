@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: aqua;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  .App-logo {
+    height: 40vmin;
+  }
+  .main-background{
+    background: url('./images/girl-with-umbrella-and-falling-feathers-johan-swanepoel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:33.9em;
+    width: 90%;
+    margin-left: 70px;
+    border-radius: 15px;
+  }
+.content{
+ float: right;
+}
+.main-content{
+  color: white;
+  font-size: 13px;
+  margin: 170px 0px 0px 120px;
+}
+.arrows{
+  position: relative;
+  margin: 100px 0px 0px 500px;
+}
+ /* for tablet */
+@media only screen and (max-width: 1200px){
+  .main-background{
+    height:33.5em;
+    margin-left: 50px;
+  }
+  .arrows{
+    position: relative;
+    margin: 90px 0px 0px 410px;
+  }
+
+}
+
+
+ /* for andriod  */
+@media only screen and (max-width: 980px){
+.main-background{
+  height:33em;
+  margin-left: 30px;
+}
+.arrows{
+  position: relative;
+  margin: 100px 0px 0px 130px;
+}
+.main-content{
+  color: white;
+  font-size: 10px;
+  margin: 190px 0px 99px 60px;
+}
+
+}
+
+/* for apple ios */
+
+@media only screen and (max-width: 350px){
+.main-background{
+  height:30em;
+  margin-left: 14.5px;
+}
+.arrows{
+  position: relative;
+  margin: 70px 0px 0px 4px;
+}
+.main-content{
+  color: white;
+  font-size: 10px;
+  margin: 190px 0px 0px 20px;
+}
+
+}

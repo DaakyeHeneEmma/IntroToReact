@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+#register{
+   font-size: medium;
+   cursor: pointer;
+   font-weight: bold;
+   color: white;
+   padding: 20px 25px 0px 0px;
+  }
+  #register hr{
+    margin-top: 3px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+  .main{
+   margin-top: 35px;
+   width: 0;
+   margin-left: 29px;
+  }
+.navigate{
+   font-size: 50px;
+   color: white;
+height: 0px;
+cursor: pointer;
+margin-left: 5px;
+background: li;
+}
+.drop-down ul li{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: bold;
+ display: none;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.drop-down li:hover{
+background: purple;
+}
+.drop-down ul{
+  display: inline-table;
+  border-radius:20px;
+}
+.drop-down{
+  margin-top: -100px;
+}
+.navigate:hover .drop-down ul li{
+ display: block;
+}
+.content-text{
+  font-size: 35px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#more-btn{
+  font-size: 12px;
+  cursor: pointer;
+  border: 2px solid lightskyblue;
+  width: 80px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 7px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: cadetblue;
+}
+.previous-next{
+  color: yellow;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid rgb(7, 114, 109);
+  background: rgb(6, 202, 202);
+  border-radius: 100%;
+  cursor: pointer;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 8px;
+}
+.arr{
+  margin-left: 70px;
+}#arr span{
+  margin-left: 20px;
+}
+.all-span{
+   border: 4px solid rgb(49, 232, 245);
+   border-radius: 100%;
+   padding-right: 12px;
+   padding-bottom: 10px;
+   padding-top:5px;
+   border-block-start-style: none;
+   border-block-end-width: 0px;
+}
+.small-span{
+  background: yellow;
+  border-radius: 100%;
+  padding-bottom: 5px;
+  margin: 5px;
+  color: rgb(6, 153, 121);
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 4px 10px 8px 10px;
+
+}
+.logos{
+  height: 45px;
+  width: 45px;
+  background-image: url(./images/myLogo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+
+}
+.logos-text{
+  font-size: 9px;
+  /* font-weight: bold; */
+  color: white;
+  padding-left: 30px;
+  /* padding-top: -22px; */
+}.logos-text .logos{
+  margin-top: -30px;
+  margin-left: -20px;
+}
+.main-logo{
+  margin-top: -60px;
+}
+
+
+@media only screen and (max-width:2000px){
+  .content-text{
+    font-size: 30px;
+  }
+
+}
+
+
+@media only screen and (max-width:980px){
+  .content-text{
+    font-size: 21px;
+  }
+
+
+}
