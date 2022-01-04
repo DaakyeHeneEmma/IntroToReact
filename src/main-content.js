@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Component.css'
 
 
@@ -13,7 +14,7 @@ function MainContent(){
         </h3>
         <p>We typically invest in new business ideas with <br />
             large knowledge content.  </p>
-            <div id="more-btn">MORE</div>
+            <Link to="../Trademark/anything"> <div id="more-btn">MORE</div></Link>
         </div>
      
     )

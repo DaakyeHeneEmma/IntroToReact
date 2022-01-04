@@ -8,13 +8,13 @@ import Navigation from './nav';
 import MainContent from './main-content';
 import Arrows from './arrow';
 import LogoMade from './Trademark/logs'
-import Nav from './navigation'
+// import Nav from './navigation'
 
 function App() {
   return (
     <Router>
       <Switch>
-    <div className="App">
+    <div classNaName="App">
       <div className="main-background">
       <div className="nav">
        <Navigation />
